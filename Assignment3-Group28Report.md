@@ -22,7 +22,7 @@ Text…
 ## DataUtilities.calculateColumnTotal
 
 Data flow diagram: 
-![asn2DataUtilitiesDiagram](https://user-images.githubusercontent.com/81480268/156485739-7b29a0b5-49ff-4c98-88ca-7092254873ba.jpg)
+![asn2DataUtilitiesDiagramAgain](https://user-images.githubusercontent.com/81480268/156487592-97a26f45-33ba-4bef-954f-21a3095ec645.jpg)
 
 Def-use sets: 
 ```
