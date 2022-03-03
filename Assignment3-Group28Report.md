@@ -19,7 +19,7 @@ Text…
 
 # 2 Manual data-flow coverage calculations for DataUtilities.calculateColumnTotal and Range.contains methods
 
-## DataUtilities.calculateColumnTotal
+## 2.1 DataUtilities.calculateColumnTotal
 
 Data flow diagram: 
 ![asn2DataUtilitiesDiagram3](https://user-images.githubusercontent.com/81480268/156491407-2afa9345-682c-43e9-8935-5bbf713293eb.jpg)
@@ -59,7 +59,7 @@ Pairs covered in each test case:
 
 DU-pair coverage: 
 
-## Range.contains 
+## 2.2 Range.contains 
 
 Data flow diagram: 
 ![asn2Range](https://user-images.githubusercontent.com/81480268/156491943-1f6b0643-e044-47f7-aed5-23a2dcdbd957.jpg)
