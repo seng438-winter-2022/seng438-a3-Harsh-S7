@@ -25,8 +25,10 @@ Data flow diagram:
 ![asn2DataUtilitiesDiagram](https://user-images.githubusercontent.com/81480268/156485739-7b29a0b5-49ff-4c98-88ca-7092254873ba.jpg)
 
 Def-use sets: 
-'def(1) = {}
-use(2) = {}'
+```
+def(1) = {}
+use(2) = {}
+```
 
 DU-pairs per variable: 
 
