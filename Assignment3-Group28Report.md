@@ -26,8 +26,23 @@ Data flow diagram:
 
 Def-use sets: 
 ```
-def(1) = {}
-use(2) = {}
+def(1) = {data, column, total, rowCount}
+use(1) = {}
+
+def(2) = {r}
+use(2) = {r, column, rowCount, n}
+
+def(3) = {}
+use(3) = {}
+
+def(4) = {total}
+use(4) = {n, total}
+
+def(5) = {}
+use(5) = {r}
+
+def(6) = {}
+use(6) = {total}
 ```
 
 DU-pairs per variable: 
