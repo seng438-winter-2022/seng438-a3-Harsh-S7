@@ -56,8 +56,12 @@ r: {(2, 5)}
 ```
 
 Pairs covered in each test case: 
+```
+```
 
 DU-pair coverage: 
+```
+```
 
 ## 2.2 Range.contains 
 
@@ -78,8 +82,17 @@ lower: {(1, 1)}
 ```
 
 Pairs covered in each test case: 
+```
+containsValueNotInRange: (1, 1)
+containsValueInRange: (1, 1)
+containsValueUpperBound: (1, 1)
+containsValueLowerBound: (1, 1)
+```
 
 DU-pair coverage: 
+```
+1/1 * 100% = 100% 
+```
 
 # 3 A detailed description of the testing strategy for the new unit test
 
