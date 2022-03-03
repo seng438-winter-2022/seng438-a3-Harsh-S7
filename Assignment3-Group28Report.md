@@ -22,7 +22,7 @@ Text…
 ## DataUtilities.calculateColumnTotal
 
 Data flow diagram: 
-![asn2DataUtilitiesDiagramAgain](https://user-images.githubusercontent.com/81480268/156487592-97a26f45-33ba-4bef-954f-21a3095ec645.jpg)
+![asn2DataUtilitiesDiagram3](https://user-images.githubusercontent.com/81480268/156491407-2afa9345-682c-43e9-8935-5bbf713293eb.jpg)
 
 Def-use sets: 
 ```
@@ -46,6 +46,14 @@ use(6) = {total}
 ```
 
 DU-pairs per variable: 
+```
+data: {(1, 1), (1, 2)}
+column: {(1, 2)}
+total: {(1, 4), (4, 6)}
+rowCount: {(1, 2)}
+n: {(2, 4)}
+r: {(2, 5)}
+```
 
 Pairs covered in each test case: 
 
@@ -54,10 +62,20 @@ DU-pair coverage:
 ## Range.contains 
 
 Data flow diagram: 
+![asn2Range](https://user-images.githubusercontent.com/81480268/156491943-1f6b0643-e044-47f7-aed5-23a2dcdbd957.jpg)
 
 Def-use sets: 
+```
+def(1) = {value, upper, lower}
+use(1) = {value, upper, lower}
+```
 
 DU-pairs per variable: 
+```
+value: {(1, 1)}
+upper: {(1, 1)}
+lower: {(1, 1)}
+```
 
 Pairs covered in each test case: 
 
