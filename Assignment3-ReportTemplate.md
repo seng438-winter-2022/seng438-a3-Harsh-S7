@@ -16,9 +16,33 @@ for each group. Please see each lab document for details.)
 
 Text…
 
-# 2 Manual data-flow coverage calculations for X and Y methods
+# 2 Manual data-flow coverage calculations for DataUtilities.calculateColumnTotal and Range.contains methods
 
-Text…
+## DataUtilities.calculateColumnTotal
+
+Data flow diagram: 
+![asn2DataUtilitiesDiagram](https://user-images.githubusercontent.com/81480268/156485739-7b29a0b5-49ff-4c98-88ca-7092254873ba.jpg)
+
+
+Def-use sets: 
+
+DU-pairs per variable: 
+
+Pairs covered in each test case: 
+
+DU-pair coverage: 
+
+## Range.contains 
+
+Data flow diagram: 
+
+Def-use sets: 
+
+DU-pairs per variable: 
+
+Pairs covered in each test case: 
+
+DU-pair coverage: 
 
 # 3 A detailed description of the testing strategy for the new unit test
 
