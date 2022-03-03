@@ -57,10 +57,16 @@ r: {(2, 5)}
 
 Pairs covered in each test case: 
 ```
+testCalculateColumnTotal_indexesOutOfOrder: data{(1, 1), (1, 2)}, column: {(1, 2)}, total: {(1, 4), (4, 6)}, rowCount: {(1, 2)}, n: {(2, 4)}, r: {(2, 5)}
+testSimple: data{(1, 1), (1, 2)}, column: {(1, 2)}, total: {(1, 4), (4, 6)}, rowCount: {(1, 2)}, n: {(2, 4)}, r: {(2, 5)}
+testDecimal: data{(1, 1), (1, 2)}, column: {(1, 2)}, total: {(1, 4), (4, 6)}, rowCount: {(1, 2)}, n: {(2, 4)}, r: {(2, 5)}
+testCalculateColumn_longerArray: data{(1, 1), (1, 2)}, column: {(1, 2)}, total: {(1, 4), (4, 6)}, rowCount: {(1, 2)}, n: {(2, 4)}, r: {(2, 5)}
+testCalculateColumnTotal_1Index: data{(1, 1), (1, 2)}, column: {(1, 2)}, total: {(1, 4), (4, 6)}, rowCount: {(1, 2)}, n: {(2, 4)}, r: {(2, 5)}
 ```
 
 DU-pair coverage: 
 ```
+coverage = 8/8 * 100% = 100%
 ```
 
 ## 2.2 Range.contains 
@@ -83,15 +89,15 @@ lower: {(1, 1)}
 
 Pairs covered in each test case: 
 ```
-containsValueNotInRange: (1, 1)
-containsValueInRange: (1, 1)
-containsValueUpperBound: (1, 1)
-containsValueLowerBound: (1, 1)
+containsValueNotInRange: value(1, 1), upper(1, 1), lower(1, 1) 
+containsValueInRange: value(1, 1), upper(1, 1), lower(1, 1) 
+containsValueUpperBound: value(1, 1), upper(1, 1), lower(1, 1) 
+containsValueLowerBound: value(1, 1), upper(1, 1), lower(1, 1) 
 ```
 
 DU-pair coverage: 
 ```
-1/1 * 100% = 100% 
+3/3 * 100% = 100% 
 ```
 
 # 3 A detailed description of the testing strategy for the new unit test
