@@ -185,20 +185,26 @@ We used the code coverage tool EclEmma and the other tools we used were not easy
 Now since we used EclEmma, we will list its pros and cons:
 | Pros      |    Cons    |
 | -------------- | ---      |
-| Allows to track instructions, branches and lines |          |
+| Allows to track instructions, branches and lines | Does not feature condition counter |
+| Allows to count methods and types | It does not have MC/DC coverage metric |
+| Allows to check cyclomatic complexity | It does not have Mutation coverage as well |
+
 
 # 7 A comparison on the advantages and disadvantages of requirements-based test generation and coverage-based test generation.
 
-Text…
+Requirements based testing allows for testing of features. Since requirements help in bounding the scope of the application, it also allows the tester to know exactly what is part of the application and then test it accordingly. With the help of requirements, the tester can use exploratory testing to further be spot on regarding where the testing should start and how it should proceed. Now as much as this is beneficial, one issue that this causes is that at times the requirements are either too brief or either too vague. In both of these instances, it gets difficult to identify exactly where the most problems might occur and even though our functionality coverage is 100%, the same cannot be said for the statement coverage.
+On the other hand, coverage based testing addresses the concerns caused by the requirements based testing. Coverage based testing allows the tester to test the entirety of the code written. This allows for the flaws to be exposed which were not clear from the requirements. Coverage allows for the creation of test cases which focus on covering the code consequently allowing to test the logic inside the code. But the issue here is that this does not mean that we are able to test the logic in the code 100% efficiently. There are cases where even though the coverage is full but there are certain instances where the logic is incorrect and a certain test case value will result in breaking the code.
+
 
 # 8 A discussion on how the team work/effort was divided and managed
 
-Text…
+For this lab, we split into pairs and each pair took one of the two classes. Heidi & Harsh took the Range class, and Usman and Shamis took the DataUtilities class. Each pair wrote tests for their class and ensured that all the coverage requirements were met. Then the pairs switched classes and test suites, and went over each others work to double check that everything had been done correctly, and that both pairs had a good understanding of all the tests. 
 
 # 9 Any difficulties encountered, challenges overcome, and lessons learned from performing the lab
 
-Text…
+The group encountered many difficulties when working on the assignment. One of the major issues was getting everything configured. In particular, getting the test file to properly link with the different classes that needed to be tested. Because this wasn’t initially done, many of the tests were initially created blindly and in an attempt to cover as many cases that we could think of. After everything was properly connected, the project went smoothly and we were able to look for and cover everything that we missed before. 
+
 
 # 10 Comments/feedback on the lab itself
 
-Text…
+The lab itself was definitely interesting and covered the material taught in lectures in detail but it would have been far more time efficient if the lab document covered the manual testing asked for in part 2 of the lab document. Although this was easily fixable by looking at the lecture notes, there was a miscommunication as the group did not know where to find manual testing within the document. Besides that minor inconvenience, the rest of the lab was straightforward and easy to understand. 
