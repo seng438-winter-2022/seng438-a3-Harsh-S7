@@ -157,7 +157,26 @@ After
 
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
 
-Text…
+Coverage Switch
+Due to EclEmma not supporting condition coverage, we switched condition coverage for method coverage.
+Range - 90% Instruction Counters
+![image](https://user-images.githubusercontent.com/81480268/156848562-edc12348-4031-4c47-8d9d-db2c418b56ca.png)
+
+Range - 70% Branch Counters
+![image](https://user-images.githubusercontent.com/81480268/156848625-95278322-0c58-43e4-9b05-dd3511db00ba.png)
+
+Range - 60% Method Counters
+![image](https://user-images.githubusercontent.com/81480268/156848668-484a151d-324c-4e2f-af48-df2460c4408b.png)
+
+Data Utilities - 90% Instruction Counters
+![image](https://user-images.githubusercontent.com/81480268/156848711-78415957-e172-48f4-ab59-ca62020a55db.png)
+
+Data Utilities - 70% Branch Counters
+![image](https://user-images.githubusercontent.com/81480268/156848742-37e7bcc1-90a2-4265-8e4a-5b1a7271ef67.png)
+
+Data Utilities - 60% Method Counters
+![image](https://user-images.githubusercontent.com/81480268/156848773-2f8fd490-50fe-4199-aae1-3f09ded30f52.png)
+
 
 # 6 Pros and Cons of coverage tools used and Metrics you report
 
