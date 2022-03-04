@@ -180,7 +180,12 @@ Data Utilities - 60% Method Counters
 
 # 6 Pros and Cons of coverage tools used and Metrics you report
 
-Text…
+We used the code coverage tool EclEmma and the other tools we used were not easy to configure. We tried to install all of the tools, CodeCover and Clover were the only ones that were able to install successfully while the other three tools were not installed. Most of the tools in the list except EclEmma and Clover did not have any troubleshooting guides which were helping us out. CodeCover and Clover after installing were not working. With CodeCover the error was “Plug in “org.codecover.eclipse” was unable to instantiate class”. With Clover the issue was that despite it installing, we were unable to extract metrics from it because no matter how many times we configured different properties, it showed the test execution zero times so due to this no metrics were extracted.
+
+Now since we used EclEmma, we will list its pros and cons:
+| Pros      |    Cons    |
+| -------------- | ---      |
+| Allows to track instructions, branches and lines |          |
 
 # 7 A comparison on the advantages and disadvantages of requirements-based test generation and coverage-based test generation.
 
