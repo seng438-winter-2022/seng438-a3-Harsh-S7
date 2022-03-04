@@ -113,39 +113,46 @@ Data Utilities - testEqual_emptyAndNull():
 Description
 In the tests for the equal() method. This Method checks if the equal method can properly detect the difference between a null and empty array. This covers 1 if statement that checks if the 2nd array is null.
 Before
+![image](https://user-images.githubusercontent.com/81480268/156847966-0b4fe5a8-7ea1-4f1d-9db1-e5827cb66da6.png)
 
 After
+![image](https://user-images.githubusercontent.com/81480268/156847993-d8a0e33b-63de-4de4-9e28-d3e471c7fe78.png)
 
 Data Utilities - testCalculateColumn_longerArray():
 Description
 This test is for the 3input overloaded version CalculateColumnTotal(). In this test we try to cover an if statement that checks to see if the column array is longer than the total numbers of columns found in the values2D object. 
-
 Before
+![image](https://user-images.githubusercontent.com/81480268/156848044-4e66cb3d-fc17-4dfd-8b73-04d00099240d.png)
 
 After
+![image](https://user-images.githubusercontent.com/81480268/156848071-272e0768-aec0-4cc6-b6d7-dd82c8107f9f.png)
 
 Data Utilities - testCalculateRow_longerArray():
 Description
 This test is for the 3input overloaded version CalculateRowTotal(). In this test we try to cover an if statement that checks to see if the column array is longer than the total numbers of rows found in the values2D object. 
-
 Before
+![image](https://user-images.githubusercontent.com/81480268/156848132-70b41aef-f168-472c-b759-ab1e33b45a55.png)
 
 After
+![image](https://user-images.githubusercontent.com/81480268/156848159-c0355911-ebd4-4e62-820c-680c71eeca66.png)
 
 Range - testrangeCreationNull()
 Description
 This test method checks the case for what happens when the range objective that is being created is not allowed and in order to ensure that an exception is thrown this test is being used
 Before
+![image](https://user-images.githubusercontent.com/81480268/156848234-66c14fc2-19cd-4f32-8e4b-d83049f4c9f6.png)
 
 After
+![image](https://user-images.githubusercontent.com/81480268/156848256-caf0f5ce-48ed-44e3-a1f8-7d38bc676de1.png)
 
 Range - testExpandToIncludeSame()
 Description
 This method checks for the expandToInclude method within the range class. This test method covers for the if statement where the value is greater than the range.getUpperBound().
 Before
+![image](https://user-images.githubusercontent.com/81480268/156848287-449c21b4-8ce3-4be1-8036-dea1fa0c2885.png)
 
 After
-
+![image](https://user-images.githubusercontent.com/81480268/156848314-37c02ef4-6d50-4b8a-b117-d5e9d8695a26.png)
 
 
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
