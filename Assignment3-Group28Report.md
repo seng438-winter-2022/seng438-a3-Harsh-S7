@@ -15,7 +15,7 @@ for each group. Please see each lab document for details.)
 
 # 1 Introduction
 
-Text…
+In this lab we are working on coverage-based testing. With the help of a range of tools we are using coverage statistics to determine how much of our code is tested and how much of it requires more testing. By taking note of branch coverage and method coverage, we are checking how much of our code is covered by the test suite that we have developed. Then by using manual calculation of data flow coverage, we are determining how effective coverage tools are. There are instances for example where the statement coverage is 100% but the flaw is not exposed until and unless a data flow graph is drawn which then shows exactly where the issue is. With the use of the coverage tools provided, we then further the test suite development to increase the statement,branch and condition and/or method coverage depending on the tool being used.
 
 # 2 Manual data-flow coverage calculations for DataUtilities.calculateColumnTotal and Range.contains methods
 
@@ -102,11 +102,51 @@ DU-pair coverage:
 
 # 3 A detailed description of the testing strategy for the new unit test
 
-Text…
+The unit-test strategy employed for this was white box testing. In White Box testing, the unit tests created were utilizing the source code. In order to ensure the unit tests were providing excellent coverage, we first looked at the if statements and examined all the different directions that code can go depending on the parameters inputted. Through this method we were able to hit a coverage of roughly 80% for instruction coverage. Once the initial unit tests have been written and developed, the team will utilize EclEmma to determine the coverage for instruction, branch and method for the complete unit test package for each class. 
+We will then utilize the missing branches column within EclEmma to understand what branches, instructions and/or methods we are missing as each instruction that is missing will be highlighted red by eclipse and then the tester will create a test case to address this inefficiency within the test coverage. This step will be repeated for as long as needed and till the tester reaches the required coverage percentage for each style - 90% for Instruction Counters, 70% for Branch Counters and 60% for Branch Counters.
+To sum it up, we will first utilize white box testing methodology to create the initial test cases and then utilize EclEmma to find and improve the coverage.
+
 
 # 4 A high level description of five selected test cases you have designed using coverage information, and how they have increased code coverage
 
-Text…
+Data Utilities - testEqual_emptyAndNull():
+Description
+In the tests for the equal() method. This Method checks if the equal method can properly detect the difference between a null and empty array. This covers 1 if statement that checks if the 2nd array is null.
+Before
+
+After
+
+Data Utilities - testCalculateColumn_longerArray():
+Description
+This test is for the 3input overloaded version CalculateColumnTotal(). In this test we try to cover an if statement that checks to see if the column array is longer than the total numbers of columns found in the values2D object. 
+
+Before
+
+After
+
+Data Utilities - testCalculateRow_longerArray():
+Description
+This test is for the 3input overloaded version CalculateRowTotal(). In this test we try to cover an if statement that checks to see if the column array is longer than the total numbers of rows found in the values2D object. 
+
+Before
+
+After
+
+Range - testrangeCreationNull()
+Description
+This test method checks the case for what happens when the range objective that is being created is not allowed and in order to ensure that an exception is thrown this test is being used
+Before
+
+After
+
+Range - testExpandToIncludeSame()
+Description
+This method checks for the expandToInclude method within the range class. This test method covers for the if statement where the value is greater than the range.getUpperBound().
+Before
+
+After
+
+
 
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
 
